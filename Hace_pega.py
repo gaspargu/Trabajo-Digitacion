@@ -16,8 +16,8 @@ import sys
 dir_datos = sys.argv[1]
 dir_form = sys.argv[2]
 
-juzgados_lugar = np.load("Juzgados_lugar.npy")
-juzgados_num = np.load("Juzgados_num.npy")
+juzgados_lugar = np.load("Trabajo-Digitacion/Juzgados_lugar.npy")
+juzgados_num = np.load("Trabajo-Digitacion/Juzgados_num.npy")
 num_campo = {'TituloPublicacion': 5, 'TipoActuacion': 6, 'TipoConcesion': 7, 'Juzgado': 8, 'FechaPresenta': 9, 
                    'FechaSentencia': 12, 'Foja': 17, 
                    'VueltaInscripcion': 18, 'AnioInscripcion': 19, 'RegistroInscripcion': 20,

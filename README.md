@@ -32,3 +32,25 @@ python Copipaste.py D01_50 2255057T 4
 ```
 
 En el ejemplo anterior se está copiando la info útil del archivo 2255057T a los 4 archivos siguientes: o sea 2255058, 2255059, 2255060 y 2255061.
+
+## Formato de Carpetas 
+
+Conviene estructurar las carpetas de trabajo de la siguiente manera, para que el programa sepa donde ejecutar el código.
+
+```
+Digitacion-Sentencias
+├── Enero-2023
+├── Febrero-2023
+├── Marzo-2023
+    ├── Sentencias
+    ├── A01_50PRO
+    ├── B01_50
+    └── C01_50
+└── Trabajo-Digitacion
+    ├── Hace_pega.py
+    ├── Copipaste.py
+    ├── Juzgados_lugar.npy
+    ├── Juzgados_num.npy
+    ├── README.md
+    └── requirements.txt
+```
